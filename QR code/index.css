@@ -1,0 +1,36 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+.div1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;  
+  transform: translate(-50%, -50%);
+  background-color: white;
+  font-family: Arial;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  border-radius: 1.5rem;
+  padding: 1rem 1rem 2rem;
+  width: 15rem;
+}
+
+.qr-code {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.p1 {
+  margin-bottom: 0px;
+  font-size: large;
+  font-weight: bold;
+  color: hsl(218, 44%, 22%);
+}
+
+.p2 {
+  font-size: 14px;
+  color: hsl(220, 15%, 55%);
+}
