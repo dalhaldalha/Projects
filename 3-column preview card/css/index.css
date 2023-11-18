@@ -1,0 +1,39 @@
+/*------------------------------------------General--------------------------------------*/
+
+body {
+  padding-bottom: 100rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*------------------------------------------1st Div--------------------------------------*/
+
+.div1 {
+  display: flex;
+  width: 60rem;
+  height: 30rem;
+  justify-content: space-between;
+  border-radius: 1rem;
+}
+
+/*------------------------------------------1st Column--------------------------------------*/
+.div1-1 {
+  display: flex;
+  background-color: hsl(31, 77%, 52%);
+  width: 100%;
+  border-radius: 1rem 0rem 0rem 1rem;
+}
+/*------------------------------------------2nd Column--------------------------------------*/
+.div1-2 {
+  display: flex;
+  background-color: hsl(184, 100%, 22%);
+  width: 100%;
+}
+/*------------------------------------------3rd Column--------------------------------------*/
+.div1-3 {
+  display: flex;
+  background-color: hsl(179, 100%, 13%);
+  width: 100%;
+  border-radius: 0rem 1rem 1rem 0rem;
+}
