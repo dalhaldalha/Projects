@@ -1,0 +1,59 @@
+/*------------------------------------------General----------------------------------------------*/
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: Karla, Arial;
+}
+
+body {
+  padding: 4rem 1.5rem;
+}
+
+/*------------------------------------------Main Div----------------------------------------------*/
+
+.div-main {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.div-community,
+.div-subscription,
+.div-whyus {
+  padding: 1rem 1.5rem;
+}
+
+/*------------------------------------------Top Div----------------------------------------------*/
+
+
+.div-community {
+
+}
+
+.community-heading {
+  color: hsl(179, 62%, 43%);
+}
+
+.community-heading2 {
+  color: hsl(71, 73%, 54%);
+}
+
+.community-p {
+  color: hsl(218, 22%, 67%);
+}
+
+/*------------------------------------------Bottom 2 Divs----------------------------------------------*/
+
+
+.div-2section {
+  display: flex;
+  flex-direction: column;
+}
+
+.div-subscription {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.div-whyus {
+  background-color: hsla(179, 62%, 43%, 0.807);
+}
