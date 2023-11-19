@@ -2,10 +2,15 @@
 body {
   background-color: hsl(204, 43%, 93%);
   font-family: Karla, Arial;
+  font-size: 15px;
 }
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 4rem 1.5rem;
+  min-height: 100vh;
 }
 
 /*------------------------------------------Main Div----------------------------------------------*/
@@ -20,10 +25,17 @@ body {
 .div-community,
 .div-subscription,
 .div-whyus {
-  padding: 1rem 1.5rem;
+  padding: 2rem 2rem;
 }
 
-/*------------------------------------------Top Div----------------------------------------------*/
+@media (min-width:500px) {
+  .div-main {
+    display: flex;
+    max-width: 41rem;
+  }
+}
+
+/*------------------------------------------Top Div Main----------------------------------------------*/
 
 
 .div-community {
@@ -42,7 +54,7 @@ body {
   color: hsl(218, 22%, 67%);
 }
 
-/*------------------------------------------Bottom 2 Divs----------------------------------------------*/
+/*------------------------------------------Bottom Divs----------------------------------------------*/
 
 
 .div-2section {
@@ -50,10 +62,89 @@ body {
   flex-direction: column;
 }
 
+.subscription-heading,
+.subscription-p,
+.subscription-p2,
+.whyus-heading {
+  color: white;
+}
+
+.permonth-p,
+.whyus-p {
+  color: hsl(204, 43%, 93%);
+}
+
+@media (min-width:500px) {
+  .div-2section {
+    flex-direction: row;
+  }
+}
+
+/*------------------------------------------Bottom Div 1----------------------------------------------*/
+
 .div-subscription {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   background-color: hsl(179, 62%, 43%);
 }
 
+.subscription-p {
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+
+.permonth-p {
+  font-size: 1rem;
+}
+
+.subscription-p2 {
+  margin-top: 0.5rem;
+}
+
+.signup-btn {
+  margin-top: 2rem;
+  width: 90%;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  text-align: center;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.3rem;
+  text-decoration: none;
+  box-shadow: 0 0 1rem rgba(134, 134, 134, 0.7);
+}
+
+.signup-btn:hover {
+  background-color: transparent;
+  border: solid;
+  border-width: 0.1rem;
+  border-color: hsl(71, 73%, 54%);
+  color: hsl(71, 73%, 54%);
+}
+
+@media (min-width:500px) {
+  .div-subscription {
+    border-radius: 0rem 0rem 0rem 1rem;
+  }
+}
+
+
+/*------------------------------------------Bottom Div2----------------------------------------------*/
+
 .div-whyus {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   background-color: hsla(179, 62%, 43%, 0.807);
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.whyus-p {
+  max-width: 80%;
+}
+
+@media (min-width:500px) {
+  .div-whyus {
+    border-radius: 0rem 0rem 1rem 0rem;
+  }
 }
