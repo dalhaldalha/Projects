@@ -7,7 +7,7 @@ The project was about creating 3 Column preview cards that have interactive butt
 ### Links
 
 - Solution URL: [https://github.com/dalhaldalha/Projects/tree/main/3-column%20preview%20card]
-- Live Site URL: [https://dalhaldalha.github.io/Projects/QR%20code/]
+- Live Site URL: [https://dalhaldalha.github.io/Projects/3-column%20preview%20card/]
 
 ### Built with
 
@@ -19,8 +19,9 @@ The project was about creating 3 Column preview cards that have interactive butt
 
 - I learned about Css Resets.
 - There should only be one H1 element on a page, for  SEO I assume.
-
-
+- Learned that it is best practice to start of your design with a mobile version first and then scale it up.
+- Call to actions(CTAs) should be anchors instead of buttons.
+- Create Landmarks for different parts of the website.
 
 
 ### Continued development
@@ -35,5 +36,6 @@ I need more practice with harder projects in the future.
 
 ## Credits
 
-- Css Reset by Andy Bell
-- Grace from Frontend Mentor Discord
+- Google (OF Course)
+- Css Reset by Andy Bell.
+- Grace from Frontend Mentor Discord.
