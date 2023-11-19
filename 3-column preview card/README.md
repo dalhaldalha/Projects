@@ -17,11 +17,11 @@ The project was about creating 3 Column preview cards that have interactive butt
 
 ### What I learned
 
-I learned how to get an image to resize together with its container. Nothing much after that.
+- I learned about Css Resets.
+- There should only be one H1 element on a page, for  SEO I assume.
 
-```css
- max-width: 100%;
-```
+
+
 
 ### Continued development
 
@@ -32,3 +32,8 @@ I need more practice with harder projects in the future.
 - Website - [Don't have a website yet]
 - Frontend Mentor - [@dalhaldalha]
 - Twitter - [@dalhadalha28]
+
+## Credits
+
+- Css Reset by Andy Bell
+- Grace from Frontend Mentor Discord
