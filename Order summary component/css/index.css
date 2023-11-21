@@ -1,14 +1,94 @@
 /*---------------------------General--------------------------------*/
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: Red Hat Display, Arial;
   background-color: hsl(225, 100%, 98%);
 }
 
-/*---------------------------1st Div--------------------------------*/
+h2 {
+  color: hsl(223, 47%, 23%);
+}
+
+.annual-span,
+p {
+  color: hsl(224, 23%, 55%);
+}
+
+/*---------------------------Main Div--------------------------------*/
 
 .order-div {
   display: flex;
   flex-direction: column;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 7 rgba(0, 0, 0, 0.8)3);
+  width: 20rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 0rem 0rem 0.5rem rgba(129, 129, 129, 0.903);
+  text-align: center;
+  overflow: hidden;
+}
+
+/*---------------------------Top Half--------------------------------*/
+
+
+
+/*---------------------------Bottom Half--------------------------------*/
+
+.content-div {
+  padding: 0rem 1.5rem 1.5rem;
+}
+
+
+/*---------------------------Change Plan Section--------------------------------*/
+
+.music-plan {
+  background-color: hsl(225, 100%, 98%);
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 1.3rem 0rem;
+}
+
+.annual-p {
+  color: hsl(223, 47%, 23%);
+  font-weight: 700;
+  display: inline-block;
+  margin: 0rem 1rem 0rem 0rem;
+}
+
+.annual-span {
+  font-weight: 500;
+}
+
+.change-link:hover {
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+/*---------------------------Btn Section--------------------------------*/
+
+.proceed-btn {
+  display: flex;
+  justify-content: center;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 0.5rem;
+  color: white;
+  padding: 0.7rem 0rem;
+  text-decoration: none;
+  box-shadow: 0rem 0rem 0.7rem rgba(24, 47, 218, 0.7);
+}
+
+.proceed-btn:hover {
+  background-color: hsla(245, 75%, 52%, 0.7);
+}
+
+.cancel-p {
+  font-weight: 700;
+}
+
+.cancel-p:hover {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
 }
