@@ -1,0 +1,53 @@
+/*----------------------------------General------------------------------*/
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(233, 47%, 7%);
+  margin: 2rem 0rem;
+}
+
+h2 {
+  font-family: Lexend Deca, Arial;
+}
+
+p {
+  font-family: Inter, Arial;
+}
+
+/*----------------------------------Main Content------------------------------*/
+
+.content-div {
+  background-color: hsl(244, 38%, 16%);
+  color: hsla(0, 0%, 100%, 0.75);
+  text-align: center;
+  width: 20rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.top-section {
+  background-color: hsl(277, 85%, 49%);
+}
+
+.header-img {
+  opacity: 0.6;
+}
+/*----------------------------------Top-content------------------------------*/
+
+.getinsights-span {
+  color: hsl(277, 64%, 61%);
+}
+
+/*----------------------------------Bottom Content------------------------------*/
+
+.stat-p {
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 0rem;
+}
+
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1.5rem 2rem;
+}
