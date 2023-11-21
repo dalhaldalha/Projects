@@ -19,6 +19,8 @@ p {
 /*----------------------------------Main Content------------------------------*/
 
 .content-div {
+  display: flex;
+  flex-direction: column;
   background-color: hsl(244, 38%, 16%);
   color: hsla(0, 0%, 100%, 0.75);
   text-align: center;
@@ -36,11 +38,8 @@ p {
 
 .header-img {
   opacity: 0.6;
+  object-fit: cover;
   
-}
-
-.header-img-desktop{
-  display: none;
 }
 
 @media (min-width:700px) {
@@ -48,24 +47,57 @@ p {
   .content-div {
     display: flex;
     flex-direction: row-reverse;
-    max-width: 800px;
+    max-width: 62rem;
+    max-height: 40rem;
   }
 }
 /*----------------------------------Top-content------------------------------*/
+
+.top-section {
+  display: flex;
+}
 
 .getinsights-span {
   color: hsl(277, 64%, 61%);
 }
 
-/*----------------------------------Bottom Content------------------------------*/
+@media (min-width:700px) {
+  .top-section {
+    width: 50%;
+  }
 
-.stat-p {
-  color: hsla(0, 0%, 100%, 0.6);
-  margin-top: 0rem;
+  .topsec-text {
+    margin-bottom: 3rem;
+  }
+
+  .topsec-text {
+    text-align: start;
+  }
 }
+
+/*----------------------------------Bottom Content------------------------------*/
 
 .bottom-section {
   display: flex;
   flex-direction: column;
   padding: 1rem 1.5rem 2rem;
 }
+
+.stat-p {
+  color: hsla(0, 0%, 100%, 0.6);
+  margin-top: 0rem;
+}
+
+@media (min-width:700px) { 
+  .bottomsec-text {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .bottom-section {
+    padding: 3rem 4rem 2rem 2rem;
+    width: 50%;
+  }
+
+}
+  
