@@ -2,12 +2,12 @@
 
 ## Overview
 
-The project was about creating a single price grid. The columns also stacked when adjusted to a smaller screen size.
+The project was about creating an Order summary component.
 
 ### Links
 
-- Solution URL: [https://github.com/dalhaldalha/Projects/tree/main/Single%20price%20grid%20component]
-- Live Site URL: [https://dalhaldalha.github.io/Projects/Single%20price%20grid%20component/]
+- Solution URL: [https://github.com/dalhaldalha/Projects/tree/main/Order%20summary%20component]
+- Live Site URL: [https://dalhaldalha.github.io/Projects/Order%20summary%20component/]
 
 ### Built with
 
@@ -18,7 +18,7 @@ The project was about creating a single price grid. The columns also stacked whe
 
 ### What I learned
 
-- I implemented what I had learned in the previous lesson, such as starting from a mobile layout. This made the design easier.
+- Starting with a mobile design first makes things 100x faster.
 
 
 ### Continued development
@@ -34,4 +34,3 @@ I need more practice with harder projects in the future.
 ## Credits
 
 - Google (OF Course)
-- Discord
