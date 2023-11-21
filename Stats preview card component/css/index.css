@@ -4,6 +4,7 @@ body {
   align-items: center;
   justify-content: center;
   background-color: hsl(233, 47%, 7%);
+  padding: 0rem 2rem;
   margin: 2rem 0rem;
 }
 
@@ -21,17 +22,34 @@ p {
   background-color: hsl(244, 38%, 16%);
   color: hsla(0, 0%, 100%, 0.75);
   text-align: center;
-  width: 20rem;
+  max-width: 20rem;
   border-radius: 0.5rem;
   overflow: hidden;
 }
 
 .top-section {
+  display: flex;
   background-color: hsl(277, 85%, 49%);
 }
 
+
+
 .header-img {
   opacity: 0.6;
+  
+}
+
+.header-img-desktop{
+  display: none;
+}
+
+@media (min-width:700px) {
+
+  .content-div {
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 800px;
+  }
 }
 /*----------------------------------Top-content------------------------------*/
 
