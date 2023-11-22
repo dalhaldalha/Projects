@@ -6,8 +6,8 @@ The project was about creating a Result summary component.
 
 ### Links
 
-- Solution URL: [https://github.com/dalhaldalha/Projects/tree/main/Order%20summary%20component]
-- Live Site URL: [https://dalhaldalha.github.io/Projects/Order%20summary%20component/]
+- Solution URL: [https://github.com/dalhaldalha/Projects/tree/main/Results%20summary%20component]
+- Live Site URL: [https://dalhaldalha.github.io/Projects/Results%20summary%20component/]
 
 ### Built with
 
