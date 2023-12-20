@@ -1,0 +1,119 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/*-------------------------------General----------------------------------*/
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+}
+
+/*-------------------------------Main Content----------------------------------*/
+
+.main-content {
+  display: flex;
+  max-width: 40rem;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: white;
+}
+
+a,
+p {
+  font-family: Montserrat, Arial;
+  color: hsl(228, 12%, 48%);
+  margin: 0rem;
+}
+
+h2 {
+  font-family: Fraunces, Arial;
+  margin: 0rem;
+}
+
+/*-------------------------------Right Content----------------------------------*/
+.right-content {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 2rem;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.perfume {
+  letter-spacing: 0.5rem;
+}
+
+.gab-text {
+  font-size: 2rem;
+}
+
+.long-p {
+  max-width: 30rem;
+}
+
+.price-one {
+  font-family: Fraunces, Arial;
+  color: hsl(158, 36%, 37%);
+  font-size: 2.5rem;
+}
+
+.price-two {
+  font-family: Montserrat, Arial;
+  color: hsl(228, 12%, 48%);
+  font-size: 1rem;
+  text-decoration: line-through;
+}
+
+.cart-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  padding: 1rem 0.5rem;
+  font-weight: bold;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+}
+
+.cart-btn:hover {
+  scale: 1.05;
+}
+
+.cart-btn:active {
+  background-color: hsl(158, 33%, 25%);
+}
+
+/*-------------------------------Left Content----------------------------------*/
+.left-content {
+ display: flex;
+ width: 50%;
+}
+
+
+@media (max-width:600px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .left-content,
+  .right-content {
+    width: 100%;
+  }
+
+  .right-img {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .left-content {
+    height: 30%;
+    overflow: hidden;
+  }
+
+}
