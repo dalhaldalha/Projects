@@ -1,13 +1,13 @@
-# Frontend Mentor - 3-column preview card component solution
+# Frontend Mentor - Product priview card component solution
 
 ## Overview
 
-The project was about creating 3 Column preview cards that have interactive buttons. The columns also stack when adjusted to a smaller screen size.
+The project was about creating a Product Priview Card. The columns also stack when adjusted to a smaller screen size.
 
 ### Links
 
-- Solution URL: [https://github.com/dalhaldalha/Projects/tree/main/3-column%20preview%20card]
-- Live Site URL: [https://dalhaldalha.github.io/Projects/3-column%20preview%20card/]
+- Solution URL: [https://github.com/dalhaldalha/Projects/tree/main/Product%20Priview%20Card%20Component]
+- Live Site URL: [https://dalhaldalha.github.io/Projects/Product%20Priview%20Card%20Component/]
 
 ### Built with
 
@@ -17,11 +17,7 @@ The project was about creating 3 Column preview cards that have interactive butt
 
 ### What I learned
 
-- I learned about Css Resets.
-- There should only be one H1 element on a page, for  SEO I assume.
-- Learned that it is best practice to start of your design with a mobile version first and then scale it up.
-- Call to actions(CTAs) should be anchors instead of buttons.
-- Create Landmarks for different parts of the website.
+- Nothing new
 
 
 ### Continued development
@@ -37,5 +33,3 @@ I need more practice with harder projects in the future.
 ## Credits
 
 - Google (OF Course)
-- Css Reset by Andy Bell.
-- Grace from Frontend Mentor Discord.
